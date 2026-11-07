@@ -1,0 +1,45 @@
+# MicroPython Virtual Environment
+venv/
+env/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Firmware
+*.bin
+*.elf
+build/
+*.mpy
+
+# Device deploy artifacts (runtime copies that must never enter git)
+config.json
+webrepl_cfg.py
+# Real per-device configs under config_files/ stay on disk, out of git.
+# Only example.config.json is tracked.
+config_files/**/config*.json*
