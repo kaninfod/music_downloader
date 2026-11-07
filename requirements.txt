@@ -1,3 +1,2 @@
 typer
-mutagen
 yt-dlp
